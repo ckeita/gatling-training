@@ -1,0 +1,20 @@
+<component name="libraryTable">
+  <library name="zinc">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/zinc/slf4j-api-1.7.21.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/zinc/incremental-compiler-0.13.12.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/zinc/compiler-interface-0.13.12-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/zinc/zinc-0.3.12.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/zinc/scopt_2.10-3.5.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/zinc/sbt-interface-0.13.12.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/zinc/config-1.3.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/zinc/scala-reflect.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/zinc/gatling-compiler-2.2.5.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/zinc/logback-classic-1.1.7.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/zinc/logback-core-1.1.7.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/zinc/scala-library.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
