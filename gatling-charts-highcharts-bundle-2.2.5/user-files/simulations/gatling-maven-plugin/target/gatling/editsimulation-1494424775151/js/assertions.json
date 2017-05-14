@@ -1,0 +1,10 @@
+{
+  "simulation": "gatling.EditSimulation",
+  "simulationId": "editsimulation",
+  "start": 1494424775151,
+  "description": "null",
+  "scenarios": ["EditSimulation"],
+  "assertions": [
+
+  ]
+}

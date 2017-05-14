@@ -1,0 +1,5 @@
+RUN	gatling.TrainingSimulation		trainingsimulation	1494507012129	 	2.0
+GROUP	Failed to build request Parse Comments: No protocol.baseUrl defined but provided url is relative : /comments/1 	1494507015245
+USER	jsonparse	1	START	1494507015205	1494507015205
+GROUP	Failed to build request Patch Comments: No protocol.baseUrl defined but provided url is relative : /comments/1 	1494507016315
+USER	jsonparse	1	END	1494507015205	1494507017308

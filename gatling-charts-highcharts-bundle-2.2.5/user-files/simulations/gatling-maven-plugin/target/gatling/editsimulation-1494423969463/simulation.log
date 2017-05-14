@@ -1,0 +1,61 @@
+RUN	gatling.EditSimulation		editsimulation	1494423969463	null	2.0
+USER	EditSimulation	1	START	1494423971215	1494423971215
+USER	EditSimulation	2	START	1494423971284	1494423971284
+USER	EditSimulation	3	START	1494423971287	1494423971287
+USER	EditSimulation	4	START	1494423971293	1494423971293
+USER	EditSimulation	5	START	1494423971294	1494423971294
+USER	EditSimulation	6	START	1494423971300	1494423971300
+USER	EditSimulation	7	START	1494423971301	1494423971301
+USER	EditSimulation	8	START	1494423971302	1494423971302
+USER	EditSimulation	9	START	1494423971305	1494423971305
+USER	EditSimulation	10	START	1494423971311	1494423971311
+REQUEST	EditSimulation	3		Form	1494423971287	1494423971350	OK	 
+REQUEST	EditSimulation	4		Form	1494423971293	1494423971335	OK	 
+REQUEST	EditSimulation	2		Form	1494423971285	1494423971352	OK	 
+REQUEST	EditSimulation	1		Form	1494423971273	1494423971329	OK	 
+REQUEST	EditSimulation	7		Form	1494423971302	1494423971436	OK	 
+REQUEST	EditSimulation	10		Form	1494423971311	1494423971434	OK	 
+REQUEST	EditSimulation	8		Form	1494423971304	1494423971439	OK	 
+REQUEST	EditSimulation	6		Form	1494423971301	1494423971443	OK	 
+REQUEST	EditSimulation	9		Form	1494423971310	1494423971449	OK	 
+REQUEST	EditSimulation	5		Form	1494423971294	1494423971451	OK	 
+REQUEST	EditSimulation	4		Post	1494423972392	1494423972426	KO	status.find.is(201), but actually found 400
+REQUEST	EditSimulation	2		Post	1494423972399	1494423972429	KO	status.find.is(201), but actually found 400
+REQUEST	EditSimulation	1		Post	1494423972392	1494423972427	KO	status.find.is(201), but actually found 400
+REQUEST	EditSimulation	3		Post	1494423972389	1494423972438	KO	status.find.is(201), but actually found 400
+REQUEST	EditSimulation	7		Post	1494423972450	1494423972501	KO	status.find.is(201), but actually found 400
+REQUEST	EditSimulation	1		Post	1494423972483	1494423972501	KO	status.find.is(201), but actually found 400
+REQUEST	EditSimulation	8		Post	1494423972452	1494423972504	KO	status.find.is(201), but actually found 400
+REQUEST	EditSimulation	4		Post	1494423972482	1494423972507	KO	status.find.is(201), but actually found 400
+REQUEST	EditSimulation	2		Post	1494423972486	1494423972507	KO	status.find.is(201), but actually found 400
+REQUEST	EditSimulation	3		Post	1494423972482	1494423972508	KO	status.find.is(201), but actually found 400
+REQUEST	EditSimulation	10		Post	1494423972451	1494423972512	KO	status.find.is(200), but actually found 400
+REQUEST	EditSimulation	5		Post	1494423972471	1494423972514	KO	status.find.is(200), but actually found 400
+REQUEST	EditSimulation	8		Post	1494423972506	1494423972522	KO	status.find.is(200), but actually found 400
+REQUEST	EditSimulation	6		Post	1494423972464	1494423972517	KO	status.find.is(201), but actually found 400
+REQUEST	EditSimulation	9		Post	1494423972471	1494423972522	KO	status.find.is(201), but actually found 400
+REQUEST	EditSimulation	7		Post	1494423972503	1494423972526	KO	status.find.is(200), but actually found 400
+REQUEST	EditSimulation	10		Post	1494423972515	1494423972536	KO	status.find.is(200), but actually found 400
+REQUEST	EditSimulation	5		Post	1494423972520	1494423972537	KO	status.find.is(201), but actually found 400
+REQUEST	EditSimulation	3		Post	1494423972511	1494423972539	KO	status.find.is(201), but actually found 400
+USER	EditSimulation	3	END	1494423971287	1494423972550
+REQUEST	EditSimulation	4		Post	1494423972510	1494423972532	KO	status.find.is(200), but actually found 400
+USER	EditSimulation	4	END	1494423971293	1494423972552
+REQUEST	EditSimulation	9		Post	1494423972535	1494423972551	KO	status.find.is(201), but actually found 400
+REQUEST	EditSimulation	8		Post	1494423972530	1494423972554	KO	status.find.is(200), but actually found 400
+REQUEST	EditSimulation	1		Post	1494423972540	1494423972562	KO	status.find.is(201), but actually found 400
+REQUEST	EditSimulation	7		Post	1494423972538	1494423972558	KO	status.find.is(200), but actually found 400
+USER	EditSimulation	8	END	1494423971302	1494423972565
+USER	EditSimulation	1	END	1494423971215	1494423972565
+USER	EditSimulation	7	END	1494423971301	1494423972565
+REQUEST	EditSimulation	10		Post	1494423972550	1494423972567	KO	status.find.is(200), but actually found 400
+USER	EditSimulation	10	END	1494423971311	1494423972570
+REQUEST	EditSimulation	6		Post	1494423972530	1494423972571	KO	status.find.is(200), but actually found 400
+REQUEST	EditSimulation	5		Post	1494423972543	1494423972567	KO	status.find.is(200), but actually found 400
+USER	EditSimulation	5	END	1494423971294	1494423972575
+REQUEST	EditSimulation	9		Post	1494423972560	1494423972577	KO	status.find.is(201), but actually found 400
+USER	EditSimulation	9	END	1494423971305	1494423972579
+REQUEST	EditSimulation	2		Post	1494423972540	1494423972577	KO	status.find.is(200), but actually found 400
+USER	EditSimulation	2	END	1494423971284	1494423972581
+REQUEST	EditSimulation	6		Post	1494423972574	1494423972600	KO	status.find.is(201), but actually found 400
+USER	EditSimulation	6	END	1494423971300	1494423972603

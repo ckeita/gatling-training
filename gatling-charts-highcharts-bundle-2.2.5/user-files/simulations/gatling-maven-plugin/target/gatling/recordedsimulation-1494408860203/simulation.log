@@ -1,0 +1,6 @@
+RUN	RecordedSimulation		recordedsimulation	1494408860203	null	2.0
+USER	RecordedSimulation	1	START	1494408861946	1494408861946
+REQUEST	RecordedSimulation	1		request_0	1494408862009	1494408862053	OK	 
+REQUEST	RecordedSimulation	1		request_0 Redirect 1	1494408862086	1494408862106	OK	 
+REQUEST	RecordedSimulation	1		request_1	1494408864139	1494408864160	OK	 
+USER	RecordedSimulation	1	END	1494408861946	1494408864928

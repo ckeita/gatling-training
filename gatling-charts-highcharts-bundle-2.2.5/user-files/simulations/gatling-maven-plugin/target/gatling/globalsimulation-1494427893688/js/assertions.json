@@ -1,0 +1,27 @@
+{
+  "simulation": "gatling.GlobalSimulation",
+  "simulationId": "globalsimulation",
+  "start": 1494427893688,
+  "description": "null",
+  "scenarios": ["Users", "Admins"],
+  "assertions": [
+{
+  "path": "Global",
+  "target": "count of failed requests",
+  "condition": "is",
+  "expectedValues": [0.0],
+  "result": false,
+  "message": "Global: count of failed requests is 0.0",
+  "actualValue": [6.0]
+},
+{
+  "path": "Global",
+  "target": "50th percentile of response time",
+  "condition": "is less than",
+  "expectedValues": [20.0],
+  "result": true,
+  "message": "Global: 50th percentile of response time is less than 20.0",
+  "actualValue": [18.0]
+}
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "simulation": "gatling.ParseSimulation",
+  "simulationId": "4",
+  "start": 1494490719178,
+  "description": "",
+  "scenarios": ["jsonparse"],
+  "assertions": [
+
+  ]
+}

@@ -1,0 +1,3 @@
+RUN	gatling.IntrospectingSimulation		introspectingsimulation	1494497312862	 	2.0
+USER	jsonparse	1	END	1494497313333	1494497313416
+USER	jsonparse	1	START	1494497313333	1494497313333

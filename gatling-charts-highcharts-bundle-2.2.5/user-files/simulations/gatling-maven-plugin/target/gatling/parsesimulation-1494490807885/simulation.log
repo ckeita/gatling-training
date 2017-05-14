@@ -1,0 +1,4 @@
+RUN	gatling.ParseSimulation		parsesimulation	1494490807885	 	2.0
+USER	jsonparse	1	START	1494490809952	1494490809952
+REQUEST	jsonparse	1		request_0	1494490810097	1494490810267	KO	jsonPath($[?(@.email=="Eliseo@gardner.biz")].name))).find.is(id labore ex et quam laborum) failed, could not extract:  could not extract : `[?(' expected but `)' found
+USER	jsonparse	1	END	1494490809952	1494490811305

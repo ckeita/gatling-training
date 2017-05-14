@@ -1,0 +1,10 @@
+{
+  "simulation": "gatling.SearchSimulation",
+  "simulationId": "searchsimulation",
+  "start": 1494418081353,
+  "description": "null",
+  "scenarios": ["SearchSimulation"],
+  "assertions": [
+
+  ]
+}

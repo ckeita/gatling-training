@@ -1,0 +1,6 @@
+RUN	gatling.SearchSimulation		searchsimulation	1494418930215	null	2.0
+USER	SearchSimulation	1	START	1494418931541	1494418931541
+REQUEST	SearchSimulation	1		request_0	1494418931622	1494418931677	OK	 
+REQUEST	SearchSimulation	1		search	1494418932702	1494418932725	OK	 
+REQUEST	SearchSimulation	1		select	1494418933721	1494418933721	KO	j.n.UnknownHostException: computer-database.gatling.iourl: Name or service not known
+USER	SearchSimulation	1	END	1494418931541	1494418934728

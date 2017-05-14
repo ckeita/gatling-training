@@ -1,0 +1,27 @@
+{
+  "simulation": "gatling.SearchSimulation",
+  "simulationId": "searchsimulation",
+  "start": 1494427401082,
+  "description": "null",
+  "scenarios": ["SearchSimulation"],
+  "assertions": [
+{
+  "path": "Global",
+  "target": "count of failed requests",
+  "condition": "is",
+  "expectedValues": [0.0],
+  "result": true,
+  "message": "Global: count of failed requests is 0.0",
+  "actualValue": [0.0]
+},
+{
+  "path": "Global",
+  "target": "50th percentile of response time",
+  "condition": "is less than",
+  "expectedValues": [20.0],
+  "result": false,
+  "message": "Global: 50th percentile of response time is less than 20.0",
+  "actualValue": [29.0]
+}
+  ]
+}

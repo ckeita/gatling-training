@@ -1,0 +1,6 @@
+RUN	gatling.SearchSimulation		searchsimulation	1494417579377	null	2.0
+USER	SearchSimulation	1	START	1494417581213	1494417581213
+REQUEST	SearchSimulation	1		request_0	1494417581319	1494417581372	OK	 
+REQUEST	SearchSimulation	1		search	1494417597412	1494417597450	KO	substring(Junior).find.exists, found nothing
+REQUEST	SearchSimulation	1		request_2	1494417608432	1494417608473	OK	 
+USER	SearchSimulation	1	END	1494417581213	1494417608479

@@ -1,0 +1,9 @@
+RUN	gatling.SearchSimulation		searchsimulation	1494420307194	null	2.0
+USER	SearchSimulation	1	START	1494420308677	1494420308677
+USER	SearchSimulation	2	START	1494420308800	1494420308800
+REQUEST	SearchSimulation	1		request_0	1494420308771	1494420308834	OK	 
+REQUEST	SearchSimulation	2		request_0	1494420308801	1494420308856	OK	 
+GROUP	Failed to build request search: No attribute named 'searchCriterion' is defined 	1494420309895
+GROUP	Failed to build request search: No attribute named 'searchCriterion' is defined 	1494420309902
+USER	SearchSimulation	2	END	1494420308800	1494420309931
+USER	SearchSimulation	1	END	1494420308677	1494420309932

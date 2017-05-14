@@ -1,0 +1,5 @@
+RUN	gatling.TrainingSimulation		trainingsimulation	1494507557348	 	2.0
+USER	jsonparse	1	START	1494507559459	1494507559459
+REQUEST	jsonparse	1		Parse Comments	1494507559591	1494507559697	OK	 
+REQUEST	jsonparse	1		Patch Comments	1494507560736	1494507560939	KO	substring(foo).find.exists, found nothing
+USER	jsonparse	1	END	1494507559459	1494507561938
